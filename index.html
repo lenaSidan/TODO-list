@@ -11,18 +11,18 @@
     <h1>TO DO list</h1>
     <form id="form">
         
-        <input type="text" placeholder="TO DO" required name="todo">
+        <input type="text" placeholder="task" required name="todo" class="todo">
         
         <input type="radio" name="priority" id="lowPriorityTask" value="low priority task">
-        <label for="noMatter" class="priority-label">low priority task</label>
+        <label for="noMatter" class="priority-label"></label>
 
         <input type="radio" name="priority" id="highPriorityTask" value="high priority task">
-        <label for="important" class="priority-label">high priority task</label>
+        <label for="important" class="priority-label"></label>
 
         <input type="radio" name="priority" id="veryHighPriorityTask" value="very high priority task">
-        <label for="veryImportant" class="priority-label">very high priority task</label>
+        <label for="veryImportant" class="priority-label"></label>
         
-        <button type="submit" class="custom-btn btn-5">add</button>
+        <button type="submit" class="custom-btn btn-5">add task</button>
         
     </form>
     <ol id="todo-list"></ol>
